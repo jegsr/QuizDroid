@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="Widget">
+        <ListPreference
+            android:dialogTitle="@string/txtNiveis"
+            android:icon="@android:drawable/ic_menu_help"
+            android:key="widget_nivel"
+            android:summary="@string/summary_widget_nivel"
+            android:title="@string/title_widget_nivel" />
+
+        <com.vanniktech.vntnumberpickerpreference.VNTNumberPickerPreference
+            android:dialogMessage="@string/summary_widget_tempo"
+            android:icon="@android:drawable/ic_menu_my_calendar"
+            android:title="@string/title_widget_tempo"
+            android:defaultValue="@integer/defaultTime"
+            android:key="widget_time"
+            app:vnt_maxValue="@integer/maxTime"
+            app:vnt_minValue="@integer/minTime"
+            />
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Aplicação">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:icon="@android:drawable/ic_media_play"
+            android:key="app_musica"
+            android:summary="@string/summary_aplication_music"
+            android:title="@string/title_aplication_music" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Administrador">
+        <Preference
+            android:icon="@android:drawable/ic_menu_manage"
+            android:key="menu_admin"
+            android:summary="@string/summary_admin"
+            android:title="@string/txtMenuAdmin">
+            <intent
+                android:targetClass="eduardo.example.com.quizdroid.AdminActivity"
+                android:targetPackage="eduardo.example.com.quizdroid" />
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

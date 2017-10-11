@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:layout_width="0dp"
+            android:text="Nome"></TextView>
+
+        <TextView
+            android:id="@+id/nomeNivelList"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:layout_width="0dp"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:layout_width="0dp"
+            android:text="Descrição"></TextView>
+
+        <TextView
+            android:id="@+id/descricaoNivelList"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:layout_width="0dp"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:layout_width="0dp"
+            android:text="Pontuação"></TextView>
+
+        <TextView
+            android:id="@+id/pontuacaoNivelList"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:layout_width="0dp"></TextView>
+    </LinearLayout>
+
+</LinearLayout>

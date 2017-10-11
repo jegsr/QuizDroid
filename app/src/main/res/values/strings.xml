@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">QuizDroid</string>
+    <string name="txtNovoJogo">Novo Jogo</string>
+    <string name="txtEstatisticas">Estatísticas</string>
+
+    <string name="txtNiveis">Niveís</string>
+    <string name="txtNovoNivel">Novo Nivel</string>
+    <string name="txtAddNivel">Adicionar Nivel</string>
+    <string name="txtEditarNivel">Editar Nivel</string>
+    <string name="txtListNivel">Listar Nivel</string>
+
+
+    <string name="txtAddPergunta">Adicionar Pergunta</string>
+    <string name="txtEditarPergunta">Editar Nivel</string>
+    <string name="txtListPergunta">Listar Pergunta</string>
+
+
+
+    <string name="txtMenuAdmin">Menu Administrador</string>
+
+    //String dos summarys das preferencias
+    <string name="summary_widget_nivel">Filtrar o nivel das perguntas que aparecem no widget</string>
+    <string name="title_widget_nivel">Nivel de Perguntas</string>
+    <string name="summary_widget_tempo">Tempo que a pergunta (em minutos) do widget deve mudar</string>
+    <string name="title_widget_tempo">Mudar Perguntas</string>
+    <string name="summary_aplication_music">Indicar se pretende a utilização de musica</string>
+    <string name="title_aplication_music">Reprodução de Musica</string>
+    <string name="summary_admin">Abrir o menu de administrador</string>
+
+    //String de Broadcast
+    <string name="broadcastForService">eduardo.example.com.quizdroid.PerguntaService</string>
+    <string name="broadcastForWidget">eduardo.example.com.quizdroid.widget</string>
+    <string name="SemPerguntas">SemPerguntas</string>
+</resources>

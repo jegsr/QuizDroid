@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="defaultTime">60</integer>
+    <integer name="maxTime">6000</integer>
+    <integer name="minTime">20</integer>
+</resources>

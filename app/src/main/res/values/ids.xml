@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnEditPergunta" type="id"></item>
+    <item name="btnEditNivel" type="id"></item>
+</resources>

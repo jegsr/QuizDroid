@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundmain">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.1"
+            android:gravity="center_vertical"
+            android:text="@string/txtMenuAdmin"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.9"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <Button
+                android:id="@+id/btn_addPergunta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:drawable/btn_default"
+                android:hint="@string/txtAddPergunta"
+                android:shadowColor="@android:color/black"
+                android:shadowRadius="20"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btn_listPergunta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@android:drawable/btn_default"
+                android:hint="@string/txtListPergunta"
+                android:shadowColor="@android:color/black"
+                android:shadowRadius="20"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btn_addNivel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="25dp"
+                android:background="@android:drawable/btn_default"
+                android:hint="@string/txtAddNivel"
+                android:shadowColor="@android:color/black"
+                android:shadowRadius="20"
+                android:textSize="25dp" />
+
+
+            <Button
+                android:id="@+id/btn_listNivel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@android:drawable/btn_default"
+                android:hint="@string/txtListNivel"
+                android:shadowColor="@android:color/black"
+                android:shadowRadius="20"
+                android:textSize="25dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom|center"
+                android:layout_marginTop="40dp"
+                >
+
+                <Button
+                    android:id="@+id/homeButton"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/ic_home_button" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,41 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="eduardo.example.com.quizdroid">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".Estatistica.EstatisticasActivity" />
+        <activity android:name=".AdminActivity" />
+        <activity android:name=".Jogo.JogoAtivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Niveis.AdicionarNivel" />
+        <activity android:name=".Niveis.ListarNivel" />
+        <activity android:name=".NovoJogoActivity" />
+        <activity android:name=".Perguntas.AdicionarPergunta" />
+        <activity android:name=".Perguntas.ListarPergunta" />
+        <activity android:name=".PreferenciasActivity" />
+
+
+        <service android:name=".Widget.PerguntaService" />
+        <receiver android:name=".Widget.MyBroadcastReceiverWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="eduardo.example.com.quizdroid.widget" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info" />
+        </receiver>
+    </application>
+
+</manifest>

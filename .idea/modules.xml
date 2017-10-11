@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/QuizDroid.iml" filepath="$PROJECT_DIR$/QuizDroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/database/database.iml" filepath="$PROJECT_DIR$/database/database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vntnumberpickerpreference-1.0.1-20160806.173246-27/vntnumberpickerpreference-1.0.1-20160806.173246-27.iml" filepath="$PROJECT_DIR$/vntnumberpickerpreference-1.0.1-20160806.173246-27/vntnumberpickerpreference-1.0.1-20160806.173246-27.iml" />
+    </modules>
+  </component>
+</project>
